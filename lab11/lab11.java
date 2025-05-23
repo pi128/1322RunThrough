@@ -46,7 +46,7 @@ public class lab11 {
                     System.out.println("BlueRay Disk added to collection.\n");
                 } catch (NumberFormatException e){
                     String message = e.getMessage();
-                    //regex used . means any * means zero or more of the character in this case its 0-9 \\ used twice because java \d means any digit and .* means any of the characters after the digit basically just lets it accept a digit anywhere and this is a pass 
+                    //regex: . means any * means zero or more of the character in this case its 0-9 \\ used twice because java \d means any digit and .* means any of the characters after the digit basically just lets it accept a digit anywhere and this is a pass 
                       if (message != null && message.matches(".*\\d.*")) {
                         System.out.println("Error: Price must be a number!\n");
                     } else {
