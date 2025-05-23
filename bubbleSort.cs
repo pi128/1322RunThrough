@@ -22,6 +22,7 @@ class bubbleSort
     foreach (int num in list) {
         Console.WriteLine(num);
     }
+    
 
 
     
